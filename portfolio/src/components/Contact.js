@@ -12,15 +12,15 @@ const Contact = () => {
           <Col md={6}>
             <div className="contact-info-box">
               <FaEnvelope className="contact-icon" />
-              <p>thulasi@example.com</p>
+              <p>thulasipanndeshwara02@gmail.com</p>
             </div>
             <div className="contact-info-box">
               <FaPhoneAlt className="contact-icon" />
-              <p>+91 98765 43210</p>
+              <p>+91 9482645666</p>
             </div>
             <div className="contact-info-box">
               <FaMapMarkerAlt className="contact-icon" />
-              <p>Tamil Nadu, India</p>
+              <p>Mangalore, Karnataka</p>
             </div>
           </Col>
         </Row>

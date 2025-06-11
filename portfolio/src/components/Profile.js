@@ -13,13 +13,13 @@ function Profile() {
               src="/profile-pic.png"
               alt="Thulasi"
               className="img-fluid rounded-circle"
-              style={{ width: '300px', height: '300px', objectFit: 'cover' }}
+              style={{ width: '50px', height: '50px',  }}
             />
           </Col>
           <Col md={6} className="mt-4 mt-md-0">
             <p className="text-muted">Hello, I'm</p>
             <h1 className="display-4">Thulasi</h1>
-            <h3 className="text-primary mb-4">Frontend Developer</h3>
+            <h3 className="text-primary mb-4">Web Developer</h3>
             <div className="d-flex justify-content-center gap-3 mb-3">
               <Button variant="dark" href="/Thulasi_CV.pdf" download>
                 Download CV

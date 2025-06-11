@@ -4,14 +4,15 @@ import './Skills.css';
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML5', icon: '💻' },
-    { name: 'CSS3', icon: '🎨' },
-    { name: 'JavaScript', icon: '⚙️' },
-    { name: 'React', icon: '⚛️' },
-    { name: 'Bootstrap', icon: '🅱️' },
-    { name: 'Tailwind CSS', icon: '🌬️' },
-    { name: 'Vue.js', icon: '🖼️' },
-    { name: 'Git & GitHub', icon: '🔧' },
+  { name: 'HTML', icon: '🔤' },
+  { name: 'CSS', icon: '🎨' },
+  { name: 'JavaScript', icon: '📜' },
+  { name: 'React', icon: '⚛️' },
+  { name: 'Tailwind CSS', icon: '💨' },
+  { name: 'Vue.js', icon: '🖼️' },
+  { name: 'Laravel', icon: '🧰' },
+  { name: 'Figma', icon: '🎨' },
+  { name: 'MySQL', icon: '🗄️' },
   ];
 
   return (

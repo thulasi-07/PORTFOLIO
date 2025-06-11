@@ -5,22 +5,28 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Netflix Clone',
-      description: 'Created a UI clone of Netflix using HTML and CSS. Fully responsive layout mimicking the original design.',
+      title: 'A WEB APPLICATION FOR PET ADOPTION',
+      description: 'Empower pet lovers! Our comprehensive pet adoption website, built with HTML, CSS, JS, PHP, and MySQL, connects users with their perfect furry companions. Git repo for seamless collaboration.',
       image: 'https://i.imgur.com/1vD3yKn.png',
-      link: 'https://your-netflix-clone-link.com',
+      link: 'http://github.com/thulasi-07/petadoption',
     },
     {
-      title: 'SmartForm Portal',
-      description: 'A dynamic platform for lecturers and students to create and submit smart forms with auto-fill features.',
+      title: 'NETFLIX FRONT-END CLONE',
+      description: 'This project is a replica of the Netflix landing page, created using HTML and CSS to practice front-end development skills. It features a responsive design with a fixed navigation bar, a visually appealing hero section, various content sections showcasing movies and TV shows, and a comprehensive footer.',
       image: 'https://i.imgur.com/RAiwZGC.png',
-      link: 'https://your-smartform-portal.com',
+      link: 'http://github.com/thulasi-07/Netflix-clone',
     },
     {
-      title: 'Volunteer Network',
+      title: 'QUESTION PAPER GENERATION SYSTEM',
       description: 'A full-stack app for managing local volunteer events with features like AI matching and certificate generation.',
       image: 'https://i.imgur.com/jgfogp6.png',
-      link: 'https://your-volunteer-network.com',
+      link: 'https://github.com/thulasi-07/hackthonSjec',
+    },
+    {
+      title: 'ToDo - List',
+      description: 'A simple and interactive to-do list application that helps users manage tasks efficiently. Users can add, edit, delete, and mark tasks as complete. Built with a clean UI for a seamless experience, this project is perfect for learning the basics of web development and task management functionality.',
+      image: 'https://i.imgur.com/jgfogp6.png',
+      link: 'https://github.com/thulasi-07/ToDoList',
     },
   ];
 
@@ -42,7 +48,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View Project
+                    GitHub
                   </Button>
                 </Card.Body>
               </Card>
