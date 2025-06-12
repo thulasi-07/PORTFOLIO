@@ -6,19 +6,19 @@ const Skills = () => {
   const skills = [
   { name: 'HTML', icon: '🔤' },
   { name: 'CSS', icon: '🎨' },
-  { name: 'JavaScript', icon: '📜' },
   { name: 'React', icon: '⚛️' },
   { name: 'Tailwind CSS', icon: '💨' },
   { name: 'Vue.js', icon: '🖼️' },
+  { name: 'JavaScript', icon: '📜' },
   { name: 'Laravel', icon: '🧰' },
-  { name: 'Figma', icon: '🎨' },
   { name: 'MySQL', icon: '🗄️' },
+  { name: 'Figma', icon: '🎨' },
   ];
 
   return (
     <section id="skills" className="skills-section">
       <Container>
-        <h2 className="skills-title">Skills</h2>
+        <h2 className="skills-title">🛠️ Skills</h2>
         <Row>
           {skills.map((skill, index) => (
             <Col key={index} xs={6} md={3} className="mb-4">

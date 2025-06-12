@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './Projects.css';
 
+
 const Projects = () => {
   const projects = [
     {
@@ -31,17 +32,17 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="projects-section">
+    <section id="projects" className="projects-section py-5">
       <Container>
-        <h2 className="projects-title">Projects</h2>
+        <h2 className="projects-title text-center fw-bold mb-5 display-6">🚀 Projects</h2>
         <Row>
           {projects.map((project, index) => (
-            <Col key={index} md={6} lg={4} className="mb-4">
-              <Card className="project-card">
+            <Col key={index} md={6} lg={4} className="mb-4 d-flex">
+              <Card className="project-card flex-fill d-flex flex-column">
                 <Card.Img variant="top" src={project.image} alt={project.title} />
-                <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
-                  <Card.Text>{project.description}</Card.Text>
+                <Card.Body className="d-flex flex-column">
+                  <Card.Title className="fw-bold">{project.title}</Card.Title>
+                  <Card.Text className="flex-grow-1">{project.description}</Card.Text>
                   <Button
                     variant="dark"
                     href={project.link}

@@ -10,7 +10,7 @@ const About = () => {
     <section id="about" className="about-section py-5">
       <Container>
         {/* Section Title */}
-        <h2 className="section-title text-center fw-bold mb-6 display-6">About</h2>
+        <h2 className="section-title text-center fw-bold mb-6 display-6">🙋‍♀️ About</h2>
 
 
 
