@@ -21,7 +21,7 @@ function Profile() {
             <h1 className="display-4">Thulasi</h1>
             <h3 className="text-primary mb-4">Web Developer</h3>
             <div className="d-flex justify-content-center gap-3 mb-3">
-              <Button variant="dark" href="/Thulasi_CV.pdf" download>
+              <Button variant="dark" href="/Thulasi-CV.pdf" download>
                 Download CV
               </Button>
               <Button variant="outline-primary" href="#contact">
@@ -29,13 +29,13 @@ function Profile() {
               </Button>
             </div>
             <div className="d-flex justify-content-center gap-4">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+              <a href="http://www.linkedin.com/in/thulasi666" target="_blank" rel="noreferrer">
                 <FaLinkedin size={30} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer">
+              <a href="https://github.com/thulasi-07" target="_blank" rel="noreferrer">
                 <FaGithub size={30} />
               </a>
-              <a href="mailto:youremail@example.com">
+              <a href="mailto:thulasipanndeshwara02@gmail.com">
                 <FaEnvelope size={30} />
               </a>
             </div>
