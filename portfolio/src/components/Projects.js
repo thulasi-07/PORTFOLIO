@@ -1,6 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './Projects.css';
+import petAdoptionImg from '../assests/petAdoptionImg.jpg';
+import netflixImg from '../assests/netflixImg.jpeg';
+import questionPaperImg from '../assests/questionPaperImg.png';
+import todoListImg from '../assests/todoListImg.jpeg';
+
 
 
 const Projects = () => {
@@ -8,25 +13,25 @@ const Projects = () => {
     {
       title: 'A WEB APPLICATION FOR PET ADOPTION',
       description: 'Empower pet lovers! Our comprehensive pet adoption website, built with HTML, CSS, JS, PHP, and MySQL, connects users with their perfect furry companions. Git repo for seamless collaboration.',
-      image: 'https://i.imgur.com/1vD3yKn.png',
+      image: petAdoptionImg,
       link: 'http://github.com/thulasi-07/petadoption',
     },
     {
       title: 'NETFLIX FRONT-END CLONE',
       description: 'This project is a replica of the Netflix landing page, created using HTML and CSS to practice front-end development skills. It features a responsive design with a fixed navigation bar, a visually appealing hero section, various content sections showcasing movies and TV shows, and a comprehensive footer.',
-      image: 'https://i.imgur.com/RAiwZGC.png',
+      image: netflixImg,
       link: 'http://github.com/thulasi-07/Netflix-clone',
     },
     {
       title: 'QUESTION PAPER GENERATION SYSTEM',
       description: 'A full-stack app for managing local volunteer events with features like AI matching and certificate generation.',
-      image: 'https://i.imgur.com/jgfogp6.png',
+      image: questionPaperImg,
       link: 'https://github.com/thulasi-07/hackthonSjec',
     },
     {
       title: 'ToDo - List',
       description: 'A simple and interactive to-do list application that helps users manage tasks efficiently. Users can add, edit, delete, and mark tasks as complete. Built with a clean UI for a seamless experience, this project is perfect for learning the basics of web development and task management functionality.',
-      image: 'https://i.imgur.com/jgfogp6.png',
+      image: todoListImg,
       link: 'https://github.com/thulasi-07/ToDoList',
     },
   ];
