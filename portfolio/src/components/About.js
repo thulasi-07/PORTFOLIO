@@ -2,17 +2,14 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import profilePic from "../assests/profile.jpg"; // Ensure correct path
-
+import profilePic from "../assests/profile.jpg";
+import "./About.css"; // Add this line to use custom styles
 
 const About = () => {
   return (
-    <section id="about" className="about-section py-5">
+    <section id="about" className="about-section uniform-section py-5">
       <Container>
-        {/* Section Title */}
-        <h2 className="section-title text-center fw-bold mb-6 display-6">🙋‍♀️ About</h2>
-
-
+        <h2 className="section-title text-center fw-bold mb-5 display-6">About</h2>
 
         <Row className="align-items-center">
           {/* Left Image */}
@@ -35,9 +32,6 @@ const About = () => {
             <p className="text-muted">Hello, I'm</p>
             <h1 className="fw-bold">Thulasi</h1>
             <h3 className="text-secondary">Web Developer</h3>
-            {/* <p className="mt-3">
-              I'm a passionate Front-End Developer skilled in React.js, Vue.js, and Laravel. I love building clean, responsive, and interactive user interfaces. Always eager to learn and grow through real-world projects.
-            </p> */}
             <div className="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
               <Button variant="dark" href="/Thulasi-CV.pdf" download>
                 Download CV

@@ -10,13 +10,13 @@ const Education = () => {
       degree: "Master of Computer Applications (MCA)",
       institution: "St. Joseph Engineering College, Mangaluru",
       year: "2023 – 2025",
-      details: "8.05"
+      details: "CGPA-8.05"
     },
     {
       degree: "Bachelor of Science (BSc)",
       institution: "Canara College, Mangaluru",
       year: "2020 – 2023",
-      details: "7.48"
+      details: "CGPA-7.48"
     },
     {
       degree: "PUC (Science - PCMB)",
@@ -33,9 +33,9 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="education-section py-5">
+    <section id="education" className="education-section uniform-section py-5">
       <Container>
-        <h2 className="text-center section-heading fw-bold">🎓 Education</h2>
+        <h2 className="text-center section-heading fw-bold mb-5">Education</h2>
         <Row className="justify-content-center">
           {educationList.map((edu, index) => (
             <Col key={index} md={6} lg={4} className="mb-4 d-flex">

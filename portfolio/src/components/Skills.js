@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <Container>
-        <h2 className="skills-title">🛠️ Skills</h2>
+        <h2 className="skills-title">Skills</h2>
         <Row>
           {skills.map((skill, index) => (
             <Col key={index} xs={6} md={3} className="mb-4">
