@@ -8,27 +8,27 @@ const Contact = () => {
   return (
     <section id="contact" className="contact-section uniform-section py-5">
       <Container>
-        <h2 className="text-center section-heading fw-bold mb-5">📬 Contact</h2>
+        <h2 className="text-center section-heading fw-bold mb-5">Contact</h2>
         <Row className="justify-content-center">
-          <Col md={6} lg={4} className="mb-4">
+          <Col md={8} className="mb-4">
             <div className="contact-info-box">
               <div className="contact-icon">
                 <FaEnvelope />
               </div>
               <h5>Email</h5>
-              <p>thulasi666@gmail.com</p>
+              <p>thulasipanndeshwara02@gmail.com</p>
             </div>
           </Col>
-          <Col md={6} lg={4} className="mb-4">
+          <Col md={8} className="mb-4">
             <div className="contact-info-box">
               <div className="contact-icon">
                 <FaPhone />
               </div>
               <h5>Phone</h5>
-              <p>+91 98765 43210</p>
+              <p>+91 9482645666</p>
             </div>
           </Col>
-          <Col md={6} lg={4} className="mb-4">
+          <Col md={8} className="mb-4">
             <div className="contact-info-box">
               <div className="contact-icon">
                 <FaMapMarkerAlt />
