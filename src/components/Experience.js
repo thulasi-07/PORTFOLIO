@@ -7,7 +7,7 @@ const Experience = () => {
     {
       title: 'Frontend Developer Intern',
       company: 'Vinyasa Tech Solutions',
-      duration: '1 Month (React)',
+      duration: '1 Month',
       description:
         'During my one-month internship (Oct 28 – Nov 28, 2024) at Vinyasa Tech Solutions, I focused on front-end development using React. I gained hands-on experience in building responsive UIs and understanding the full web development lifecycle. As part of a team, I worked on recreating the Myntra homepage UI using HTML, CSS, and Tailwind CSS. Additionally, I developed a To-Do List App independently in React and Tailwind CSS, strengthening my skills in component-based architecture, state management, and clean UI design.',
     },
@@ -16,7 +16,7 @@ const Experience = () => {
       company: 'Intellogic Software Pvt. Ltd.',
       duration: '3 Months',
       description:
-        'As part of my internship, I contributed to the development of the Patient Module in the OPD Management System. My work involved both frontend and backend development using Vue.js and Laravel.',
+        'Currently, I am interning at Intellogic Software Pvt. Ltd., where I underwent a comprehensive one-month training program focused on Vue.js for the frontend and Laravel for the backend. Following the training, I have been working on a live project — an OPD (Outpatient Department) Management System — specifically contributing to the development of the Patient Module. Over the remaining two months of the internship, I am actively applying my skills to build real-time features, enhance user experience, and collaborate with the team on a production-level application.',
     },
   ];
 

@@ -11,6 +11,7 @@ const Skills = () => {
   { name: 'Vue.js', icon: '🖼️' },
   { name: 'JavaScript', icon: '📜' },
   { name: 'Laravel', icon: '🧰' },
+  { name: 'MongoDB', icon: '🟢' },
   { name: 'MySQL', icon: '🗄️' },
   { name: 'Figma', icon: '🎨' },
   ];

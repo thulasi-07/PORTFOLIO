@@ -5,6 +5,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { FaCertificate } from "react-icons/fa";
 import "./Certifications.css";
 
+
 const Certifications = () => {
   const certifications = [
     {
@@ -20,14 +21,14 @@ const Certifications = () => {
       date: "Jul 2024",
       // description: "Built OPD management features using Vue.js and Laravel during my 3-month internship.",
       link: "https://www.coursera.org/account/accomplishments/verify/LBD9K8VBTWAQ"
+    },
+    {
+      title: "Frontend Developer Intern",
+      issuer: "Vinyasa Tech Solutions",
+      year: "Dec 2024",
+      // description: "Vue.js & Laravel-based web application development during a 3-month program.",
+      link: "/Internship Certificate.pdf"
     }
-    // {
-    //   title: "Web Development Internship",
-    //   issuer: "Intologic Software Pvt. Ltd.",
-    //   year: "May 2025",
-    //   description: "Vue.js & Laravel-based web application development during a 3-month program.",
-    //   link: "https://github.com/thulasi-07"
-    // }
   ];
 
   return (
