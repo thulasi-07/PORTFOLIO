@@ -34,8 +34,9 @@ const About = () => {
             <h3 className="text-secondary">Web Developer</h3>
             <div className="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
               <Button variant="dark" href="/Thulasi-CV.pdf" download>
-                Download CV
-              </Button>
+                 Download CV
+                </Button>
+
               <Button variant="outline-dark" href="#contact">
                 Contact Me
               </Button>

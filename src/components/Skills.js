@@ -10,11 +10,16 @@ const Skills = () => {
   { name: 'Tailwind CSS', icon: '💨' },
   { name: 'Vue.js', icon: '🖼️' },
   { name: 'JavaScript', icon: '📜' },
+  { name: 'Java', icon: '☕' },        
+  { name: 'Python', icon: '🐍' },      
   { name: 'Laravel', icon: '🧰' },
+  { name: 'Node.js', icon: '🟩' },     
+  { name: 'Express.js', icon: '🚂' },  
   { name: 'MongoDB', icon: '🟢' },
   { name: 'MySQL', icon: '🗄️' },
   { name: 'Figma', icon: '🎨' },
-  ];
+];
+
 
   return (
     <section id="skills" className="skills-section uniform-section py-5">
