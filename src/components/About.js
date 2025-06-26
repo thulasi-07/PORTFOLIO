@@ -9,7 +9,9 @@ const About = () => {
   return (
     <section id="about" className="about-section uniform-section py-5">
       <Container>
-        <h2 className="section-title text-center fw-bold mb-5 display-6">About</h2>
+        <h2 className="section-title text-center fw-bold mb-5 display-6">
+          About
+        </h2>
 
         <Row className="align-items-center">
           {/* Left Image */}
@@ -22,7 +24,7 @@ const About = () => {
                 maxWidth: "300px",
                 height: "auto",
                 borderRadius: "10px",
-                boxShadow: "0 4px 20px rgba(0,0,0,0.1)"
+                boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
               }}
             />
           </Col>
@@ -33,19 +35,26 @@ const About = () => {
             <h1 className="fw-bold">Thulasi</h1>
             <h3 className="text-secondary">Web Developer</h3>
             <div className="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
-              <Button variant="dark" href="/Thulasi-CV.pdf" download>
-                 Download CV
-                </Button>
-
               <Button variant="outline-dark" href="#contact">
                 Contact Me
               </Button>
+              <a href={`${process.env.PUBLIC_URL}/Thulasi-CV.pdf`} download className="btn" variant="outline-dark">
+                Download CV
+                </a>
             </div>
             <div className="d-flex justify-content-md-start justify-content-center gap-4 mt-4">
-              <a href="https://www.linkedin.com/in/thulasi666" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/thulasi666"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin size={28} />
               </a>
-              <a href="https://github.com/thulasi-07" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/thulasi-07"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub size={28} />
               </a>
             </div>
