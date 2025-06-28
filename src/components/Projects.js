@@ -5,6 +5,7 @@ import petAdoptionImg from '../assests/petAdoptionImg.jpg';
 import netflixImg from '../assests/netflixImg.jpeg';
 import questionPaperImg from '../assests/questionPaperImg.png';
 import todoListImg from '../assests/todoListImg.jpeg';
+import thesmartlocalvolunteerNetworkImg from '../assests/thesmartlocalvolunteerNetworkImg.jpeg';
 
 
 
@@ -33,6 +34,12 @@ const Projects = () => {
       description: 'A simple and interactive to-do list application that helps users manage tasks efficiently. Users can add, edit, delete, and mark tasks as complete. Built with a clean UI for a seamless experience, this project is perfect for learning the basics of web development and task management functionality.',
       image: todoListImg,
       link: 'https://github.com/thulasi-07/ToDoList',
+    },
+    {
+      title: 'The Smart Local Volunteer Network',
+      description: 'The Smart Local Volunteer Network connects volunteers with local community projects, helping them find opportunities based on skills and interests, while enabling organizations to easily recruit volunteers.',
+      image: thesmartlocalvolunteerNetworkImg,
+      link: 'https://github.com/thulasi-07/TheSmartLocalVolunteerNetwork',
     },
   ];
 
