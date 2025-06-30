@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       title: 'QUESTION PAPER GENERATION SYSTEM',
-      description: 'A full-stack app for managing local volunteer events with features like AI matching and certificate generation.',
+      description: 'This is a full-stack Question Paper Generation System built using the MERN stack. It allows administrators or faculty members to easily create, manage, and generate question papers based on selected subjects, topics, and difficulty levels. The system ensures a streamlined, error-free, and dynamic way to prepare question papers while storing data securely in MongoDB.',
       image: questionPaperImg,
       link: 'https://github.com/thulasi-07/hackthonSjec',
     },
