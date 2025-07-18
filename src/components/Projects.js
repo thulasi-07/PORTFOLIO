@@ -12,28 +12,28 @@ import thesmartlocalvolunteerNetworkImg from '../assests/thesmartlocalvolunteerN
 const Projects = () => {
   const projects = [
     {
-      title: 'A WEB APPLICATION FOR PET ADOPTION',
-      description: 'Empower pet lovers! Our comprehensive pet adoption website, built with HTML, CSS, JS, PHP, and MySQL, connects users with their perfect furry companions. Git repo for seamless collaboration.',
-      image: petAdoptionImg,
-      link: 'http://github.com/thulasi-07/petadoption',
-    },
-    {
       title: 'NETFLIX FRONT-END CLONE',
       description: 'This project is a replica of the Netflix landing page, created using HTML and CSS to practice front-end development skills. It features a responsive design with a fixed navigation bar, a visually appealing hero section, various content sections showcasing movies and TV shows, and a comprehensive footer.',
       image: netflixImg,
       link: 'http://github.com/thulasi-07/Netflix-clone',
     },
     {
-      title: 'QUESTION PAPER GENERATION SYSTEM',
-      description: 'This is a full-stack Question Paper Generation System built using the MERN stack. It allows administrators or faculty members to easily create, manage, and generate question papers based on selected subjects, topics, and difficulty levels. The system ensures a streamlined, error-free, and dynamic way to prepare question papers while storing data securely in MongoDB.',
-      image: questionPaperImg,
-      link: 'https://github.com/thulasi-07/hackthonSjec',
-    },
-    {
       title: 'ToDo - List',
       description: 'A simple and interactive to-do list application that helps users manage tasks efficiently. Users can add, edit, delete, and mark tasks as complete. Built with a clean UI for a seamless experience, this project is perfect for learning the basics of web development and task management functionality.',
       image: todoListImg,
       link: 'https://github.com/thulasi-07/ToDoList',
+    },
+    {
+      title: 'A WEB APPLICATION FOR PET ADOPTION',
+      description: 'Empower pet lovers! Our comprehensive pet adoption website, built with HTML, CSS, JS, PHP, and MySQL, connects users with their perfect furry companions. Git repo for seamless collaboration.',
+      image: petAdoptionImg,
+      link: 'http://github.com/thulasi-07/petadoption',
+    },
+    {
+      title: 'QUESTION PAPER GENERATION SYSTEM',
+      description: 'This is a full-stack Question Paper Generation System built using the MERN stack. It allows administrators or faculty members to easily create, manage, and generate question papers based on selected subjects, topics, and difficulty levels. The system ensures a streamlined, error-free, and dynamic way to prepare question papers while storing data securely in MongoDB.',
+      image: questionPaperImg,
+      link: 'https://github.com/thulasi-07/hackthonSjec',
     },
     {
       title: 'The Smart Local Volunteer Network',
