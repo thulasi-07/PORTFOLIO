@@ -16,7 +16,7 @@ const Experience = () => {
       company: 'Intellogic Software Pvt. Ltd.',
       duration: '3 Months',
       description:
-        'During my three-month internship (May - July, 2025) at Intellogic Software Pvt. Ltd., which began with a one-month intensive training program in Vue.js and Laravel. Following the training, I contributed to the development of various submodules in a live healthcare project — the MyDoctor. My work involved implementing real-time features, improving user interfaces, and collaborating closely with the development team to deliver production-level functionalities. This experience enhanced my full-stack development skills and gave me practical exposure to building scalable web applications in a professional environment.',
+        'During my three-month internship (May - July, 2025) at Intellogic Software Pvt. Ltd., which began with a one-month intensive training program in Vue.js and Laravel. Following the training, I contributed to the development of various submodules in a live healthcare project — the OPD Management System. My work involved implementing real-time features, improving user interfaces, and collaborating closely with the development team to deliver production-level functionalities. This experience enhanced my full-stack development skills and gave me practical exposure to building scalable web applications in a professional environment.',
     }
       ];
 
