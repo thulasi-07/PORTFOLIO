@@ -18,7 +18,7 @@ const Projects = () => {
       link: 'http://github.com/thulasi-07/Netflix-clone',
     },
     {
-      title: 'ToDo - List',
+      title: 'ToDo - LIST',
       description: 'A simple and interactive to-do list application that helps users manage tasks efficiently. Users can add, edit, delete, and mark tasks as complete. Built with a clean UI for a seamless experience, this project is perfect for learning the basics of web development and task management functionality.',
       image: todoListImg,
       link: 'https://github.com/thulasi-07/ToDoList',
@@ -36,7 +36,7 @@ const Projects = () => {
       link: 'https://github.com/thulasi-07/hackthonSjec',
     },
     {
-      title: 'The Smart Local Volunteer Network',
+      title: 'THE SMART LOCAL VOLUNTEER NETWORK',
       description: 'The Smart Local Volunteer Network connects volunteers with local community projects, helping them find opportunities based on skills and interests, while enabling organizations to easily recruit volunteers.',
       image: thesmartlocalvolunteerNetworkImg,
       link: 'https://github.com/thulasi-07/TheSmartLocalVolunteerNetwork',
