@@ -19,15 +19,15 @@ const Contact = () => {
               <p>thulasipanndeshwara02@gmail.com</p>
             </div>
           </Col>
-          {/* <Col md={8} className="mb-4">
+          <Col md={8} className="mb-4">
             <div className="contact-info-box">
               <div className="contact-icon">
                 <FaPhone />
               </div>
               <h5>Phone</h5>
-              <p>+91 1223654788</p>
+              <p>+91 9482645666</p>
             </div>
-          </Col> */}
+          </Col>
           <Col md={8} className="mb-4">
             <div className="contact-info-box">
               <div className="contact-icon">

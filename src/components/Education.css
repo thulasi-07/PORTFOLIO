@@ -19,19 +19,32 @@
   border-radius: 1rem;
   padding: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .edu-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* 🎓 Graduation icon */
 .edu-icon {
   font-size: 2rem;
-  color: #0a66c2;
-  margin-bottom: 10px;
+  color: #000; /* black icon */
+  margin-bottom: 12px;
   display: flex;
   justify-content: center;
+  animation: hatFloat 3s ease-in-out infinite;
+}
+
+/* ✨ Subtle up-and-down floating animation */
+@keyframes hatFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 .edu-card .card-title {
@@ -63,6 +76,6 @@
   }
 
   .edu-icon {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 }

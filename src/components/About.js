@@ -33,7 +33,7 @@ const About = () => {
           <Col md={6} className="text-md-start text-center">
             <p className="text-muted">Hello, I'm</p>
             <h1 className="fw-bold">Thulasi</h1>
-            <h3 className="text-secondary">Web Developer</h3>
+            <h3 className="text-secondary">Software Developer</h3>
             <div className="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
               <Button variant="outline-dark" href="#contact">
                 Contact Me

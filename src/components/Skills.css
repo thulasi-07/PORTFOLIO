@@ -24,7 +24,26 @@
   transform: translateY(-10px);
 }
 
+/* Icon styling */
 .skill-icon {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  color: #0a66c2;
+  animation: iconFloat 3s ease-in-out infinite;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Add subtle float movement */
+@keyframes iconFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Glow and scale effect on hover */
+.skill-card:hover .skill-icon {
+  transform: scale(1.1);
 }
