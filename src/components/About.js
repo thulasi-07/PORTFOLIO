@@ -1,7 +1,7 @@
 // src/components/About.js
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
 import profilePic from "../assests/profile.jpg";
 import "./About.css"; // Add this line to use custom styles
 
@@ -56,6 +56,13 @@ const About = () => {
                 rel="noreferrer"
               >
                 <FaGithub size={28} />
+              </a>
+              <a
+                href="https://gitlab.com/thulasipanndeshwara02"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGitlab size={28} />
               </a>
             </div>
           </Col>
