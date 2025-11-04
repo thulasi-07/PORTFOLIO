@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-// Optional custom styling
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 function Profile() {

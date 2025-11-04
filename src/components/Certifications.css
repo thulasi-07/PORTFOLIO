@@ -59,7 +59,6 @@
   font-size: 0.9rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .section-heading {
     font-size: 2rem;

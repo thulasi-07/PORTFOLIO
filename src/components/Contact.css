@@ -5,9 +5,10 @@
   animation: contactBgFlow 14s ease infinite;
   text-align: center;
   min-height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Smooth animated gradient background */
 @keyframes contactBgFlow {
   0% {
     background-position: 0% 50%;
@@ -29,14 +30,13 @@
   max-width: 400px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
-  animation: fadeUp 1.2s ease both;
+  animation: fadeUp 1.2s ease both, floatBox 5s ease-in-out infinite;
 }
 
-/* Soft appear from below */
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
@@ -44,13 +44,20 @@
   }
 }
 
-/* Elegant hover animation */
-.contact-info-box:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.15);
+@keyframes floatBox {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
-/* Icon style + gentle pulsing */
+.contact-info-box:hover {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.18);
+}
+
 .contact-icon {
   font-size: 1.8rem;
   color: #007bff;
@@ -58,14 +65,13 @@
   animation: pulseIcon 2.5s ease-in-out infinite;
 }
 
-/* Light pulse animation for icons */
 @keyframes pulseIcon {
   0%, 100% {
     transform: scale(1);
     color: #007bff;
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.15);
     color: #0056b3;
   }
 }
@@ -83,7 +89,6 @@
   margin: 0;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .contact-section {
     padding: 40px 20px;

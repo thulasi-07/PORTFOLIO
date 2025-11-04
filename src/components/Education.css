@@ -27,17 +27,15 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* 🎓 Graduation icon */
 .edu-icon {
   font-size: 2rem;
-  color: #000; /* black icon */
+  color: #000; 
   margin-bottom: 12px;
   display: flex;
   justify-content: center;
   animation: hatFloat 3s ease-in-out infinite;
 }
 
-/* ✨ Subtle up-and-down floating animation */
 @keyframes hatFloat {
   0%, 100% {
     transform: translateY(0);
@@ -65,7 +63,6 @@
   margin-bottom: 6px;
 }
 
-/* Responsive tweaks */
 @media (max-width: 768px) {
   .section-heading {
     font-size: 2rem;

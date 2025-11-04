@@ -1,4 +1,3 @@
-// src/components/Education.js
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./Education.css";

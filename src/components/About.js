@@ -1,9 +1,8 @@
-// src/components/About.js
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
 import profilePic from "../assests/profile.jpg";
-import "./About.css"; // Add this line to use custom styles
+import "./About.css"; 
 
 const About = () => {
   return (
@@ -12,9 +11,7 @@ const About = () => {
         <h2 className="section-title text-center fw-bold mb-5 display-6">
           About
         </h2>
-
         <Row className="align-items-center">
-          {/* Left Image */}
           <Col md={6} className="text-center mb-4 mb-md-0">
             <img
               src={profilePic}
@@ -28,12 +25,10 @@ const About = () => {
               }}
             />
           </Col>
-
-          {/* Right Content */}
           <Col md={6} className="text-md-start text-center">
             <p className="text-muted">Hello, I'm</p>
             <h1 className="fw-bold">Thulasi</h1>
-            <h3 className="text-secondary">Software Developer</h3>
+            <h3 className="text-secondary">Software Engineer | Passionate About Building Web Experiences</h3>
             <div className="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
               <Button variant="outline-dark" href="#contact">
                 Contact Me
@@ -57,13 +52,13 @@ const About = () => {
               >
                 <FaGithub size={28} />
               </a>
-              <a
+              {/* <a
                 href="https://gitlab.com/thulasipanndeshwara02"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaGitlab size={28} />
-              </a>
+              </a> */}
             </div>
           </Col>
         </Row>

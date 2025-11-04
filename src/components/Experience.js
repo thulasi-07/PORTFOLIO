@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { motion } from 'framer-motion';
 import './Experience.css';
 
 const Experience = () => {
@@ -23,8 +24,16 @@ const Experience = () => {
       company: 'Inbytes Smart Solutions Private Limited',
       duration: '1 Month',
       description:
-        'Completed an intensive training program focused on full-stack web development using Vue.js for the frontend and Laravel for the backend. The training involved working on a live project, which provided hands-on experience in real-world development scenarios.',
-    }
+        'Completed an intensive training program from October to November focused on full-stack web development using Vue.js for the frontend and Laravel for the backend. The training involved working on a live project, which provided hands-on experience in real-world development scenarios.',
+    },
+    {
+      title: 'Software Engineer',
+      company: 'Inbytes Smart Solutions Private Limited',
+      duration: 'November 2025 – Present',
+      location: '(On-Site / City, India)',
+      description:
+        'Currently working as a Software Engineer, contributing to the development of scalable and user-focused web applications. Focused on writing clean, efficient code and collaborating with the team to deliver high-quality digital solutions.',
+    },
       ];
 
 

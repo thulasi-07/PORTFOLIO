@@ -4,7 +4,7 @@
   padding: 1rem;
   z-index: 1000;
 
-  /* Smooth fade-down effect on load */
+
   opacity: 0;
   transform: translateY(-20px);
   animation: fadeDown 0.8s ease-out forwards;
@@ -28,10 +28,10 @@
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Subtle hover effect for brand name */
+
 .brand-name:hover {
   transform: scale(1.05);
-  color: #0056b3; /* darker blue */
+  color: #0056b3; 
 }
 
 .nav-links {
@@ -50,7 +50,6 @@
   transition: all 0.3s ease;
 }
 
-/* Smooth dark hover with underline animation */
 .nav-link::after {
   content: "";
   position: absolute;
@@ -63,7 +62,7 @@
 }
 
 .nav-link:hover {
-  color: #111; /* darker text on hover */
+  color: #111; 
   transform: translateY(-3px);
 }
 

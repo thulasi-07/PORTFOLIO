@@ -24,7 +24,6 @@
   transform: translateY(-10px);
 }
 
-/* Icon styling */
 .skill-icon {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -33,7 +32,6 @@
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Add subtle float movement */
 @keyframes iconFloat {
   0%, 100% {
     transform: translateY(0);
@@ -43,7 +41,6 @@
   }
 }
 
-/* Glow and scale effect on hover */
 .skill-card:hover .skill-icon {
   transform: scale(1.1);
 }

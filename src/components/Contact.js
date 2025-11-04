@@ -1,4 +1,3 @@
-// src/components/Contact.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
