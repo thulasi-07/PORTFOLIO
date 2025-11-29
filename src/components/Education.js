@@ -34,7 +34,11 @@ const Education = () => {
   return (
     <section id="education" className="education-section uniform-section py-5">
       <Container>
-        <h2 className="text-center section-heading fw-bold mb-5">Education</h2>
+        <h2 className="text-center section-heading fw-bold mb-5">Education
+          <p className="text-secondary" style={{ fontSize: "1rem", marginTop: "6px", color: "#555", fontWeight: "400" }}>
+            My academic background and achievements.
+          </p>
+        </h2>
         <Row className="justify-content-center">
           {educationList.map((edu, index) => (
             <Col key={index} md={6} lg={4} className="mb-4 d-flex">

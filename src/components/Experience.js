@@ -40,18 +40,34 @@ const Experience = () => {
   return (
     <section id="experience" className="experience-section py-5">
       <Container>
-        <h2 className="experience-title text-center fw-bold mb-5 display-6">Experience</h2>
-        <Row className="justify-content-center">
+        <h2 className="experience-title text-center fw-bold mb-5 display-6">Experience
+          <p className="text-secondary" style={{ fontSize: "1rem", marginTop: "6px", color: "#555", fontWeight: "400" }}>
+            Internships and work experiences.
+          </p>
+        </h2>
+       <Row className="justify-content-center">
           {experiences.map((exp, idx) => (
-            <Col md={6} lg={4} className="mb-4 d-flex" key={idx}>
-              <Card className="experience-card flex-fill shadow-sm">
-                <Card.Body className="d-flex flex-column">
+            <Col md={12} className="mb-4" key={idx}>
+              <Card className="experience-card-horizontal shadow-sm">
+                <div className="exp-emoji-box">
+                  {idx === 0 && "💻"}
+                  {idx === 1 && "🌐"}
+                  {idx === 2 && "🚀"}
+                  {idx === 3 && "🧩"}
+                </div>
+
+                <Card.Body>
                   <Card.Title className="experience-role fw-bold">{exp.title}</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted experience-company">
+
+                  <Card.Subtitle className="mb-1 text-muted experience-company">
                     {exp.company}
                   </Card.Subtitle>
-                  <Card.Text className="experience-duration text-muted">{exp.duration}</Card.Text>
-                  <Card.Text className="experience-desc flex-grow-1">{exp.description}</Card.Text>
+
+                  <Card.Text className="experience-duration text-muted">
+                    {exp.duration}
+                  </Card.Text>
+
+                  <Card.Text className="experience-desc">{exp.description}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>

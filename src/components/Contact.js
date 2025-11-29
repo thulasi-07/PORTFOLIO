@@ -7,7 +7,11 @@ const Contact = () => {
   return (
     <section id="contact" className="contact-section uniform-section py-5">
       <Container>
-        <h2 className="text-center section-heading fw-bold mb-5">Contact</h2>
+        <h2 className="text-center section-heading fw-bold mb-5">Contact
+          <p className="text-secondary" style={{ fontSize: "1rem", marginTop: "6px", color: "#555", fontWeight: "400" }}>
+            Reach out to me.
+          </p>
+        </h2>
         <Row className="justify-content-center">
           <Col md={8} className="mb-4">
             <div className="contact-info-box">

@@ -46,7 +46,11 @@ const Projects = () => {
   return (
     <section id="projects" className="projects-section py-5">
       <Container>
-        <h2 className="projects-title text-center fw-bold mb-5 display-6">Projects</h2>
+        <h2 className="projects-title text-center fw-bold mb-5 display-6">Projects
+          <p className="text-secondary" style={{ fontSize: "1rem", marginTop: "6px", color: "#555", fontWeight: "400" }}>
+            My web development projects.
+          </p>
+        </h2>
         <Row>
           {projects.map((project, index) => (
             <Col key={index} md={6} lg={4} className="mb-4 d-flex">
