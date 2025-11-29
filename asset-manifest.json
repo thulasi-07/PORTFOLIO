@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.d90902cf.css",
-    "main.js": "/PORTFOLIO/static/js/main.75e6b59c.js",
+    "main.js": "/PORTFOLIO/static/js/main.f02b4582.js",
     "static/js/453.1407b060.chunk.js": "/PORTFOLIO/static/js/453.1407b060.chunk.js",
-    "static/media/profile.jpg": "/PORTFOLIO/static/media/profile.d5a11591613e78b59616.jpg",
     "static/media/netflixImg.jpeg": "/PORTFOLIO/static/media/netflixImg.8b92ab855f3bb2a3829e.jpeg",
     "static/media/bootstrap-icons.woff?": "/PORTFOLIO/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/PORTFOLIO/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/questionPaperImg.png": "/PORTFOLIO/static/media/questionPaperImg.06da35afe99ef7f7e529.png",
     "static/media/thesmartlocalvolunteerNetworkImg.jpeg": "/PORTFOLIO/static/media/thesmartlocalvolunteerNetworkImg.87a575b9d31637f46718.jpeg",
+    "static/media/profile.jpg": "/PORTFOLIO/static/media/profile.0e4d29dcda47dcb30397.jpg",
     "static/media/todoListImg.jpeg": "/PORTFOLIO/static/media/todoListImg.22bd8f9e1208339345a4.jpeg",
     "static/media/petAdoptionImg.jpg": "/PORTFOLIO/static/media/petAdoptionImg.ac7fee8a099bcf78ed61.jpg",
     "index.html": "/PORTFOLIO/index.html",
     "main.d90902cf.css.map": "/PORTFOLIO/static/css/main.d90902cf.css.map",
-    "main.75e6b59c.js.map": "/PORTFOLIO/static/js/main.75e6b59c.js.map",
+    "main.f02b4582.js.map": "/PORTFOLIO/static/js/main.f02b4582.js.map",
     "453.1407b060.chunk.js.map": "/PORTFOLIO/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d90902cf.css",
-    "static/js/main.75e6b59c.js"
+    "static/js/main.f02b4582.js"
   ]
 }
