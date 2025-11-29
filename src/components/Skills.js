@@ -11,7 +11,7 @@ const Skills = () => {
     { name: 'Tailwind CSS', icon: '💨', desc: 'A utility-first CSS framework for rapid, responsive, and consistent design.' },
     { name: 'JavaScript', icon: '📜', desc: 'Core programming language for client-side and server-side interactivity.' },
     { name: 'Laravel', icon: '🧰', desc: 'PHP framework for building robust backend systems and APIs with ease.' },
-    { name: 'Express.js', icon: '🚂', desc: 'Fast, minimal framework for building Node.js servers and APIs.' },
+    { name: 'Express.js', icon: '🚂', desc: 'Lightweight Node.js framework for creating fast and scalable server applications.' },
     { name: 'Node.js', icon: '🟩', desc: 'JavaScript runtime environment to build backend applications and REST APIs.' },
     { name: 'MongoDB', icon: '🟢', desc: 'NoSQL database for storing flexible, document-based data efficiently.' },
     { name: 'MySQL', icon: '🗄️', desc: 'Relational database for structured data, supporting queries and transactions.' },
