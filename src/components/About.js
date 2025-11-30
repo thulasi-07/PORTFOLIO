@@ -16,6 +16,32 @@ const About = () => {
           .clean-appear {
             animation: cleanReveal 1s ease forwards;
           }
+
+          /* New styles for social links */
+          .social-link {
+            display: flex;
+            align-items: center;
+            gap: 8px; /* Space between icon and text */
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+          }
+          .social-link:hover {
+            text-decoration: none;
+          }
+          .linkedin-link {
+            color: #0a66c2; /* Official LinkedIn Blue */
+          }
+          .linkedin-link:hover {
+            color: #0a78e7ff; /* Darker blue on hover */
+          }
+          .github-link {
+            color: #333; /* Dark grey/black */
+          }
+          .github-link:hover {
+            color: #000; /* Black on hover */
+          }
         `}
       </style>
 
@@ -44,7 +70,7 @@ const About = () => {
           <Col md={6} className="text-md-start text-center clean-appear">
             <p className="text-muted">Hello, I'm</p>
             <h1 className="fw-bold">Thulasi</h1>
-            <h3 className="text-secondary">Software Engineer</h3>
+            <h3 className="text-secondary">Software Engineer | MCA Graduate</h3>
 
             <div className="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
               <Button variant="outline-dark" href="#contact">
@@ -61,11 +87,15 @@ const About = () => {
             </div>
 
             <div className="d-flex justify-content-md-start justify-content-center gap-4 mt-4">
-              <a href="https://www.linkedin.com/in/thulasi666" target="_blank" rel="noreferrer">
+              {/* Modified LinkedIn Link */}
+              <a href="https://www.linkedin.com/in/thulasi666" target="_blank" rel="noreferrer" className="social-link linkedin-link">
                 <FaLinkedin size={28} />
+                <span>LinkedIn</span>
               </a>
-              <a href="https://github.com/thulasi-07" target="_blank" rel="noreferrer">
+              {/* Modified GitHub Link */}
+              <a href="https://github.com/thulasi-07" target="_blank" rel="noreferrer" className="social-link github-link">
                 <FaGithub size={28} />
+                <span>GitHub</span>
               </a>
             </div>
           </Col>
