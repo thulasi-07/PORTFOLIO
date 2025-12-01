@@ -36,7 +36,7 @@ const Education = () => {
       <Container>
         <h2 className="text-center section-heading fw-bold mb-5">Education
           <p className="text-secondary" style={{ fontSize: "1rem", marginTop: "6px", color: "#555", fontWeight: "400" }}>
-            My academic background and achievements.
+            My academic background.
           </p>
         </h2>
         <Row className="justify-content-center">
