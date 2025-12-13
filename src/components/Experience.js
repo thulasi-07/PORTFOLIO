@@ -20,20 +20,29 @@ const Experience = () => {
         'During my three-month internship (May - July, 2025) at Intellogic Software Pvt. Ltd., which began with a one-month intensive training program in Vue.js and Laravel. Following the training, I contributed to the development of various submodules in a live healthcare project — the OPD Management System. My work involved implementing real-time features, improving user interfaces, and collaborating closely with the development team to deliver production-level functionalities. This experience enhanced my full-stack development skills and gave me practical exposure to building scalable web applications in a professional environment, as I had the opportunity to work on a live project.',
     },
     {
-      title: 'Software Engineer Trainee',
-      company: 'Inbytes Smart Solutions Private Limited',
-      duration: '1 Month',
-      description:
-        'Completed an intensive training program from October to November focused on full-stack web development using Vue.js for the frontend and Laravel for the backend. The training involved working on a live project, which provided hands-on experience in real-world development scenarios.',
-    },
-    {
       title: 'Software Engineer',
       company: 'Inbytes Smart Solutions Private Limited',
-      duration: 'November 2025 – Present',
+      duration: 'October 2025 – Present',
       location: '(On-Site / City, India)',
       description:
-        'Currently working as a Software Engineer, contributing to the development of scalable and user-focused web applications. Focused on writing clean, efficient code and collaborating with the team to deliver high-quality digital solutions.',
-    },
+        'Joined Inbytes Smart Solutions as a Software Engineer Trainee in October 2025 and transitioned into a full-time Software Engineer role from November 2025. Completed an intensive hands-on training program focused on full-stack web development using Vue.js for the frontend and Laravel for the backend, working on a live project. Currently contributing to the development of scalable, user-focused web applications by writing clean, efficient code and collaborating closely with the team to deliver high-quality digital solutions.',
+    }
+
+    // {
+    //   title: 'Software Engineer Trainee',
+    //   company: 'Inbytes Smart Solutions Private Limited',
+    //   duration: '1 Month',
+    //   description:
+    //     'Completed an intensive training program from October to November focused on full-stack web development using Vue.js for the frontend and Laravel for the backend. The training involved working on a live project, which provided hands-on experience in real-world development scenarios.',
+    // },
+    // {
+    //   title: 'Software Engineer',
+    //   company: 'Inbytes Smart Solutions Private Limited',
+    //   duration: 'November 2025 – Present',
+    //   location: '(On-Site / City, India)',
+    //   description:
+    //     'Currently working as a Software Engineer, contributing to the development of scalable and user-focused web applications. Focused on writing clean, efficient code and collaborating with the team to deliver high-quality digital solutions.',
+    // },
       ];
 
 
@@ -53,7 +62,7 @@ const Experience = () => {
                   {idx === 0 && "💻"}
                   {idx === 1 && "🌐"}
                   {idx === 2 && "🚀"}
-                  {idx === 3 && "🧩"}
+                  {/* {idx === 3 && "🧩"} */}
                 </div>
 
                 <Card.Body>
