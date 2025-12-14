@@ -25,8 +25,9 @@ const Experience = () => {
       duration: 'October 2025 – Present',
       location: '(On-Site / City, India)',
       description:
-        'Joined Inbytes Smart Solutions as a Software Engineer Trainee in October 2025 and transitioned into a full-time Software Engineer role from November 2025. Completed an intensive hands-on training program focused on full-stack web development using Vue.js for the frontend and Laravel for the backend, working on a live project. Currently contributing to the development of scalable, user-focused web applications by writing clean, efficient code and collaborating closely with the team to deliver high-quality digital solutions.',
+        'Joined Inbytes Smart Solutions as a Software Engineer Trainee in October 2025 and transitioned into a full-time Software Engineer role from November 2025. During the training period, worked on a live project involving full-stack web development using Vue.js for the frontend and Laravel for the backend, gaining hands-on experience in real-world development workflows. Currently contributing to the development of scalable, user-focused web applications by writing clean, efficient code and collaborating closely with the team to deliver high-quality digital solutions.',
     }
+
 
     // {
     //   title: 'Software Engineer Trainee',
