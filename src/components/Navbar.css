@@ -4,7 +4,6 @@
   padding: 1rem;
   z-index: 1000;
 
-
   opacity: 0;
   transform: translateY(-20px);
   animation: fadeDown 0.8s ease-out forwards;
@@ -28,10 +27,9 @@
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-
 .brand-name:hover {
   transform: scale(1.05);
-  color: #0056b3; 
+  color: #0056b3;
 }
 
 .nav-links {
@@ -62,10 +60,20 @@
 }
 
 .nav-link:hover {
-  color: #111; 
+  color: #111;
   transform: translateY(-3px);
 }
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+.custom-toggle {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.custom-toggle:focus {
+  outline: none;
+  box-shadow: none;
 }
