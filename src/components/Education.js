@@ -9,13 +9,13 @@ const Education = () => {
       degree: "Master of Computer Applications (MCA)",
       institution: "St. Joseph Engineering College, Mangaluru",
       year: "2023 – 2025",
-      details: "CGPA-8.09"
+      details: "8.09 CGPA"
     },
     {
       degree: "Bachelor of Science (BSc)",
       institution: "Canara College, Mangaluru",
       year: "2020 – 2023",
-      details: "CGPA-7.48"
+      details: "7.48 CGPA"
     },
     {
       degree: "PUC (Science - PCMB)",
