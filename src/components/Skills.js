@@ -11,6 +11,7 @@ import {
 } from 'react-icons/fa';
 import { SiTailwindcss, SiMongodb, SiMysql, SiExpress } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
+import { SiTypescript } from 'react-icons/si';
 import './Skills.css';
 
 const Skills = () => {
@@ -23,6 +24,10 @@ const Skills = () => {
       },
     { name: 'JavaScript', icon: <IoLogoJavascript color="#f7df1e" />,
       //  desc: 'Core programming language for client-side and server-side interactivity.' 
+      },
+      { 
+        name: 'TypeScript', 
+        icon: <SiTypescript color="#3178c6" /> 
       },
     { name: 'React.js', icon: <FaReact color="#61DBFB" />,
       //  desc: 'A popular frontend library for building dynamic, component-based user interfaces.' 
