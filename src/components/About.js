@@ -87,7 +87,6 @@ const About = () => {
             </div>
 
             <div className="d-flex justify-content-md-start justify-content-center gap-4 mt-4">
-              {/* Modified LinkedIn Link */}
               <a href="https://www.linkedin.com/in/thulasi666" target="_blank" rel="noreferrer" className="social-link linkedin-link">
                 <FaLinkedin size={28} />
                 <span>LinkedIn</span>
