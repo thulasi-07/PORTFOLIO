@@ -1,8 +1,6 @@
 .contact-section {
   padding: 60px 0;
-  background: linear-gradient(135deg, #e3f2fd, #f7f9fc, #f0f4ff);
-  background-size: 300% 300%;
-  animation: contactBgFlow 14s ease infinite;
+  background: #ffffff;
   text-align: center;
   min-height: 100vh;
   position: relative;

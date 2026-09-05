@@ -1,6 +1,6 @@
 .experience-section {
   padding: 60px 0;
-  background: linear-gradient(to top right, #fef9f9, #f0f0ff);
+  background: #ffffff;
   min-height: 100vh;
 }
 
@@ -60,7 +60,7 @@
   box-shadow: 0 12px 30px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-  border-left: 6px solid #7b5cff; 
+  border: 1px solid #000;
 }
 
 .experience-card-horizontal:hover {

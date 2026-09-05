@@ -14,3 +14,18 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+.about-section p.text-secondary::before,
+.education-section p.text-secondary::before,
+.skills-section p.text-secondary::before,
+.experience-section p.text-secondary::before,
+.projects-section p.text-secondary::before,
+.contact-section p.text-secondary::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 10px auto;
+  background-color: #007bff;
+  border-radius: 2px;
+}
